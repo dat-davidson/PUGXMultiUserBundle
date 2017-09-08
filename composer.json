@@ -1,20 +1,10 @@
 {
-    "name": "pugx/multi-user-bundle",
+    "name": "pdfloresjdav/multi-user-bundle",
     "type": "symfony-bundle",
     "description": "Symfony PUGXMultiUserBundle",
     "keywords": ["user management", "multi user management"],
     "homepage": "https://github.com/PUGX",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Leonardo Proietti",
-            "email": "leonardo.proietti@gmail.com"
-        },
-        {
-            "name": "Community",
-            "homepage": "https://github.com/PUGX/PUGXMultiUserBundle/contributors"
-        }
-    ],
     "require": {
         "doctrine/doctrine-bundle": "^1.2",
         "doctrine/common": "^2.2",

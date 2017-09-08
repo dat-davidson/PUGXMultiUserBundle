@@ -1,0 +1,34 @@
+{
+    "name": "pugx/multi-user-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony PUGXMultiUserBundle",
+    "keywords": ["user management multi user management"],
+    "homepage": "https://github.com/PUGX",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Proietti",
+            "email": "leonardo.proietti@gmail.com"
+        },
+        {
+            "name": "Community",
+            "homepage": "https://github.com/PUGX/PUGXMultiUserBundle/contributors"
+        }
+    ],
+    "require": {
+        "doctrine/doctrine-bundle": "~1.2",
+        "doctrine/common": "~2.2",
+        "friendsofsymfony/user-bundle": "2.0.x-dev@dev"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": { "PUGX\\MultiUserBundle": "" }
+    },
+    "target-dir": "PUGX/MultiUserBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
